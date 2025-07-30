@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excalibur's Portfolio Wesbite</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <!-- [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]] -->
+
+
+    <nav class="nav">
+        <!-- <div class="left">
+            <button class="hamburger" id="menuToggle"></button>
+        </div> -->
+        <div class="right">
+            <h1>Shivam<span class="nav-span">.</span></h1>
+        </div>
+        <div class="center" id="navMenu">
+            <ul>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#project" class="nav-link">Projects</a></li>
+                <!-- <li><a href="./assets/resume.pdf" target="_blank" class="nav-link resume-link">Resume</a></li> -->
+            </ul>
+        </div>
+
+        <div class="left">
+            <button class="resume-btn" onclick="window.open('./assets/resume.pdf')">Resume</button>
+        </div>
+    </nav>
+
+    <section id="home">
+
+        <!-- [{{{{{{{{{{{[{{{{{}}}}}]}}}}}}}}}}}] -->
+
+        <div class="home-content">
+            <div class="right">
+                <div class="text">
+                    <h1 class="first-text">Hello, It's Me</h1>
+                    <h1 class="second-text">Shivam Kumar</h1>
+                    <h1 class="third-text">I'm a <span class="third-text-span">Frontend Developer</span></h1>
+                </div>
+                <div class="icons">
+                    <a href="https://github.com/excalibur-sh" target="_blank"><i class="ri-github-line"></i></a>
+                    <a href="https://www.linkedin.com/in/excalibur-sh/" target="_blank"><i
+                            class="ri-linkedin-box-line"></i></a>
+                    <a href="https://x.com/_excalibur_sh_" target="_blank"><i class="ri-twitter-x-line"></i></a>
+                </div>
+            </div>
+            <div class="left">
+                <img src="img/profile-img.jpg" alt="" class="main-img">
+            </div>
+        </div>
+
+    </section>
+
+    <hr class="hr">
+
+    <!-- [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]] -->
+
+    <section id="about">
+        <div class="about-content">
+            <div class="about-me">
+                <div class="about-right">
+                    <img src="img/profile-img-two.png" alt="" class="about-img">
+                </div>
+                <div class="about-left">
+                    <div class="about-text">
+                        <h1 class="about-head">About Me</h1>
+                        <div class="cards">
+                            <div class="container">
+                                <i class="ri-graduation-cap-fill"></i>
+                                <h2>Education</h2>
+                                <p class="para">Bachelor of Technology</p>
+                                <p>Computer Science</p>
+                            </div>
+                            <div class="container container-two">
+                                <i class="ri-user-star-fill"></i>
+                                <h2>Experience</h2>
+                                <p class="para">2+ Years </p>
+                                <p>Full-Stack Develpoment </p>
+                            </div>
+                        </div>
+                        <p class="about-para">I’m a dedicated web developer with a strong technical foundation, starting
+                            from GD Mother International School and furthered through advanced studies at IIT Bombay.
+                            With multiple programming certifications, I’ve honed skills across front-end and back-end
+                            development, specializing in technologies like JavaScript, React, Node.js, and Django.
+                        </p>
+                        <p class="about-para">Throughout my career, I’ve built numerous websites that are dynamic,
+                            responsive, and efficient. I’m passionate about staying at the forefront of industry trends
+                            and am committed to delivering innovative solutions for every project I take on.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <!-- {{{{{{{{{{{{{{}}}}}}}}}}}}}} -->
+
+            <div class="about-education" id="education">
+
+                <h1 class="edu-head">Education</h1>
+
+                <div class="about-containers">
+                    <div class="cards card-one">
+                        <div class="about-left">
+                            <h2>G.D Mother International School</h2>
+                            <h3>—Primary Education</h3>
+                        </div>
+                        <div class="about-right">
+                            <h3 class="period">2012 – 2027</h3>
+                        </div>
+                    </div>
+
+                    <div class="cards card-three">
+                        <div class="about-left">
+                            <h2>IIT Bombay</h2>
+                            <h3>—Higher Studies</h3>
+                        </div>
+                        <div class="about-right">
+                            <h3 class="period">2027 – 2031</h3>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr class="hr">
+    <!-- [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]] -->
+
+    <section id="skills">
+        <div class="skill-content">
+            <h1 class="skill-head">Skills</h1>
+            <div class="skill-card">
+
+                <div class="skill-container skill-container-one">
+                    <h1>Frontend Skills</h1>
+                    <div class="skill-icon">
+                        <div class="skill-i">
+                            <i class="ri-html5-fill"></i>
+                            <h3>HTML</h3>
+                        </div>
+                        <div class="skill-i">
+                            <i class="ri-css3-fill"></i>
+                            <h3>CSS</h3>
+                        </div>
+                        <div class="skill-i">
+                            <i class="ri-bootstrap-fill"></i>
+                            <h3>BOOTSTRAP</h3>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="skill-container skill-container-one">
+                    <h1>Backend Skills</h1>
+                    <div class="skill-icon">
+                        <div class="skill-i">
+                        <i class="ri-nodejs-line"></i>
+                            <h3>Node Js</h3>
+                        </div>
+                        <div class="skill-i">
+                            <i class="ri-javascript-fill"></i>
+                            <h3>JAVASCRIPT</h3>
+                        </div>
+                        <div class="skill-i">
+                            <i class="ri-reactjs-fill"></i>
+                            <h3>REACT JS</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- [[[[[[[[[[[[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]]]]]]]]]]]] -->
+
+    <hr class="hr">
+
+    <section id="project">
+        <div class="project-content">
+            <h1 class="project-head">Projects</h1>
+
+
+            <div class="project-card">
+
+                <div class="project-container project-container-one">
+                    <div class="project-detail">
+                        <div class="project-img">
+                            <img src="img/online-business.png" alt="" class="project-img">
+                        </div>
+                        <div class="project-sub-detail">
+                            <h2>Business Showcase Website</h2>
+                            <p>This project is an online business showcase website designed to highlight daily essential
+                                goods available in-store. It features neatly categorized product sections with images,
+                                descriptions, and pricing details to give customers a clear idea of what's in stock. The
+                                site provides a seamless user experience across devices, making it easy for visitors to
+                                browse and explore offerings before visiting the physical shop. This project
+                                demonstrates my ability to create clean layouts, organize content effectively, and build
+                                responsive business-oriented interfaces.</p>
+                        </div>
+                    </div>
+                    <div class="project-btn">
+                        <a href="https://github.com/excalibur-sh/a_grocery_website_" target="_blank"> <button
+                                class="code-btn">View Code</button></a>
+                        <a href="https://excalibur-sh.github.io/a_grocery_website_/" target="_blank"> <button
+                                class="view-btn">View Project</button></a>
+                    </div>
+                </div>
+
+                <!-- [[[[[[[[[[]]]]]]]]]] -->
+
+
+                <div class="project-container project-container-one">
+                    <div class="project-detail">
+                        <div class="project-img">
+                            <img src="img/netflix.png" alt="" class="project-img">
+                        </div>
+                        <div class="project-sub-detail">
+                            <h2>Netflix-Ui-Clone</h2>
+                            <p>
+                                This project is a responsive Netflix UI clone built using HTML, CSS, and JavaScript. It
+                                replicates the look and feel of the official Netflix homepage, complete with a
+                                navigation bar, featured banner, movie thumbnails, and scrollable carousels. The design
+                                is fully responsive across devices and includes smooth hover effects for interactive
+                                elements. This project helped me practice modern layout techniques like Flexbox and Grid
+                                while focusing on clean, user-friendly design.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project-btn">
+                        <a href="https://github.com/excalibur-sh/netflix-ui-clone" target="_blank"> <button
+                                class="code-btn">View Code</button></a>
+                        <a href="https://excalibur-sh.github.io/netflix-ui-clone/" target="_blank"> <button
+                                class="view-btn">View Project</button></a>
+                    </div>
+                </div>
+
+                <!-- [[[[[[[[[[]]]]]]]]]] -->
+
+                <div class="project-container project-container-one">
+                    <div class="project-detail">
+                        <div class="project-img">
+                            <img src="img/cane-shoes.png" alt="" class="project-img">
+                        </div>
+                        <div class="project-sub-detail">
+                            <h2>Cane Shoes</h2>
+                            <p>Cane Shoes is a shoe-selling website I built to test and enhance my web development skills. Inspired by a design I came across, I recreated the layout with my own styling and structure, focusing on clean product presentation, responsive design, and smooth user interaction. The site showcases various footwear collections with images, descriptions, and pricing, serving as a hands-on project to strengthen my frontend development capabilities and design-to-code conversion practice.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project-btn">
+                        <a href="https://github.com/excalibur-sh/netflix-ui-clone" target="_blank"> <button
+                                class="code-btn">View Code</button></a>
+                        <a href="https://excalibur-sh.github.io/netflix-ui-clone/" target="_blank"> <button
+                                class="view-btn">View Project</button></a>
+                    </div>
+                </div>
+
+
+                <!-- [[[[[[[[[[]]]]]]]]]] -->
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]] -->
+    <hr class="hr">
+
+    <section id="contact-me">
+        <div class="contact-content">
+            <h1>Contact Me</h1>
+
+
+            <div class="contact-box">
+                <i class="ri-mail-open-fill mail"></i>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=creatorshivam18@gmail.com" target="_blank">
+                    <h3>creatorshivam18@gmail.com</h3>
+                </a>
+                <i class="ri-phone-fill phone"></i>
+                <p class="num">+91 8092360081</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]] -->
+    <div class="footer">
+        <hr class="hr">
+        <p class="footer-text">Copyright &#169 2024: CreatorShivam.com</p>
+    </div>
+
+    <!-- [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]] -->
+
+    <script>
+
+        const toggle = document.getElementById('menuToggle');
+        const menu = document.getElementById('navMenu');
+        const links = document.querySelectorAll('.nav-link');
+
+        toggle.addEventListener('click', () => {
+            menu.classList.toggle('active');
+            toggle.classList.toggle('active');
+        });
+
+        links.forEach(link => {
+            link.addEventListener('click', () => {
+                menu.classList.remove('active');
+                toggle.classList.remove('active');
+            });
+        });
+    </script>
+
+</body>
+
+</html>
